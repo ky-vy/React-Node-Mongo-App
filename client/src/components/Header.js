@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Payments from './Payments'
 
 class Header extends Component {
-  renderContent = () => {
+  renderContent() {
     switch (this.props.user) {
       case null:
         return

@@ -9,6 +9,9 @@ import App from './components/App'
 import registerServiceWorker from './registerServiceWorker'
 import reducers from './reducers'
 
+import axios from 'axios'
+window.axios = axios
+
 const store = createStore(reducers, {}, applyMiddleware(thunk))
 
 ReactDOM.render(

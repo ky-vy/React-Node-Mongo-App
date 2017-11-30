@@ -7,8 +7,8 @@ class Payments extends Component {
   render() {
     return (
       <StripeCheckout
-        name="Emaily"
-        description="5 dorras for 5 credits"
+        name="5 credits for $5"
+        description="card number '4242 4242 4242 4242'"
         amount={500} //5 dollars in cents
         token={token => this.props.handleToken(token)} //callback function
         stripeKey={process.env.REACT_APP_STRIPE_KEY}>

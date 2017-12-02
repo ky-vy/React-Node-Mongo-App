@@ -7,7 +7,7 @@ import * as actions from '../actions/index'
 import Landing from './Landing'
 import Dashboard from './Dashboard'
 import Header from './Header'
-import NewSurvey from './NewSurvey/NewSurvey'
+import NewSurvey from './Surveys/NewSurvey/NewSurvey'
 
 class App extends Component {
   componentDidMount() {

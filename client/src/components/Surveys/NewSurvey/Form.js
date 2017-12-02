@@ -3,7 +3,7 @@ import { reduxForm, Field } from 'redux-form'
 import _ from 'lodash'
 import { Link } from 'react-router-dom'
 import FormField from './FormField'
-import validateEmails from '../../utils/validateEmails'
+import validateEmails from '../../../utils/validateEmails'
 import formFields from './formFieldsList'
 
 class Form extends Component {

@@ -2,7 +2,7 @@ import _ from 'lodash'
 import React from 'react'
 import { connect } from 'react-redux'
 import formFields from './formFieldsList'
-import { submitSurvey } from '../../actions'
+import { submitSurvey } from '../../../actions'
 import { withRouter } from 'react-router-dom'
 
 const Review = ({ onCancel, values, submitSurvey, history }) => {
